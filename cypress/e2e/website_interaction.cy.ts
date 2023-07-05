@@ -12,7 +12,7 @@ describe('Website Interaction', () => {
     it('1. Interact with "About us" link and navigate to new page', () => {
       cy.get('#banner-accept').click();
       
-      cy.get('.col-lg-12 > .nav > :nth-child(1) > .nav-link')
+      cy.get('.fw-bold')
         .scrollIntoView()
         .should('exist')
         .click({ force: true });

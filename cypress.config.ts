@@ -8,7 +8,6 @@ export default defineConfig({
 
 
   e2e: {
-    baseUrl: 'https://www.tutorialspoint.com/html/html_iframes.htm',
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
